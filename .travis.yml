@@ -1,0 +1,10 @@
+language: node is
+node_js:
+- "stable"
+deploy:
+  provider: pages
+skip cleanup: true
+github token: $github token
+local dir: build 
+on:
+  branch: main 
